@@ -11,7 +11,7 @@ JSON-RPC-APIs enabled by default are: `eth,net,parity,parity_pubsub,pubsub,rpc,s
 First, find and replace `{{your_address}}` in the project with your IP / domain. This can be done easily with:
 
 ```
-grep -lR "{{your_address}}". | xargs sed -i 's/{{your_address}}/YOUR-ADDRESS/g'
+grep -lR "{{ your_address }}" . | xargs sed -i 's/{{ your_address }}/YOUR-ADDRESS/g'
 ```
 
 Then, launch the docker-compose:
