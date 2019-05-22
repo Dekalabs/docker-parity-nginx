@@ -11,6 +11,7 @@ services:
         --jsonrpc-hosts="{{ your_address }}"
         --jsonrpc-interface="all"
         --jsonrpc-apis="safe,-personal,-private"
+        --light
         --geth
     working_dir: /root/parity
     entrypoint: parity
