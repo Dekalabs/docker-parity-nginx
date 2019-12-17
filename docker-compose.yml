@@ -1,7 +1,7 @@
 version: '3'
 services:
   parity:
-    image: parity/parity:v2.5.1
+    image: parity/parity:v2.5.12-stable
     restart: always
     volumes:
       - parity:/root/.local/share/io.parity.ethereum
